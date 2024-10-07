@@ -1,1 +1,1 @@
-This time i let it in rar, jus t download and you cant watch it :)
+This time i let it in rar, just download it and you can watch it :)
