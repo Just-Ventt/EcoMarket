@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="Stylesheet" href="style-form.css">
+</head>
+<body>
+    <div class="content">
+    <form id="registro-form">
+        <h2> Formulario básico </h2>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmar-password" placeholder="Confirmar contraseña" required>
+        <label>Genero: </label>
+            <div class="radio-group">
+                <input type="radio" name="genero" value="Masculino"> Masculino
+                <input type="radio" name="genero" value="Femenino"> Femenino
+                <input type="radio" name="genero" value="Otro"> Otro
+            </div>
+        <label>Fecha de nacimiento: </label>
+        <input type="date" required>
+        <button type="submit"> Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+    
+    <script  src="functions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
